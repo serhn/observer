@@ -8,5 +8,6 @@
             "email": "serh@limit.com.ua"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
