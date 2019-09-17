@@ -1,6 +1,7 @@
 {
     "name": "serh/observer",
     "description": "Observer test example",
+    "license": "MIT",
     "authors": [
         {
             "name": "Serhii Nikolaichuk",
