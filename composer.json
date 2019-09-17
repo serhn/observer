@@ -1,0 +1,11 @@
+{
+    "name": "serh/observer",
+    "description": "Observer test example",
+    "authors": [
+        {
+            "name": "Serhii Nikolaichuk",
+            "email": "serh@limit.com.ua"
+        }
+    ],
+    "require": {}
+}
