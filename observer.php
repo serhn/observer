@@ -9,4 +9,7 @@ class Observer{
     function setData(){
         return "set data";
     }
+    function getData(){
+        return "get data";
+    }
 }
