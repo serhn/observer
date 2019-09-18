@@ -1,7 +1,9 @@
 {
     "name": "serh/observer",
-    "description": "Observer test example",
+    "description": "Observer and composer test example",
+    "keywords": ["observer", "test"],
     "license": "MIT",
+    
     "authors": [
         {
             "name": "Serhii Nikolaichuk",
@@ -19,5 +21,15 @@
         "branch-alias": {
             "dev-master": "1.1.x-dev"
         }
+    },
+    "scripts": {
+        "test": [
+            "parallel-lint . --exclude vendor",
+            "phpunit ./tests/*.php"
+        ]
+    },
+    "require-dev": {
+        "jakub-onderka/php-parallel-lint": "dev-master",
+        "phpunit/phpunit": "7.5.x-dev"
     }
 }
